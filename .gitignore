@@ -1,0 +1,34 @@
+# KiCad — archivos generados automaticamente (no subir al repo)
+
+# Backups automaticos de KiCad 9+
+.history/
+
+# Backups automaticos de KiCad 6-8
+*-backups/
+
+# Archivos de respaldo generados al guardar
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.bck
+
+# Configuracion visual local (personal de cada usuario)
+*.kicad_prl
+
+# Cache de huellas (se regenera solo al abrir el proyecto)
+fp-info-cache
+
+# Archivos temporales, autoguardado y bloqueos
+*~
+_autosave-*
+~*.lck
+*.lck
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Exportaciones (gerbers, netlists — se generan cuando se necesiten)
+*.net
+*.dsn
+*.ses
