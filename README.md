@@ -11,10 +11,10 @@ modulo medidor de ruido ambiental
 | Integrante | Rol | Archivo asignado |
 |---|---|---|
 | AWalder tascon (lider) | Esquema raiz y gestion | Esquemagit.kicad_sch |
-| rodrigo cuartas | Subcircuito MCU | mcu.kicad_sch |
+| rodrigo cuartas | alimentacion | Esquemagit.kicad_sch |
 | Walder tascon | codigo ESP32 | codigo |
-| isabella gonzalez | Sensores | sensores.kicad_sch |
-| camilo manzano | Librerias y PCB | librerias/, sensor-temperatura.kicad_pcb |
+| isabella gonzalez | Pistas y PCB | Esquemagit.kicad_pcb |
+| camilo manzano | Huellas y PCB | Esquemagit.kicad_pcb |
 
 ## Reglas del equipo
 
