@@ -413,7 +413,7 @@
       {
         "filename": "Esquemagit.kicad_sch",
         "name": "Raíz",
-        "uuid": "c583bc7d-a06f-40c2-a518-392a57afe111"
+        "uuid": "879299c0-e012-4d5e-97a2-28af80789ecc"
       }
     ],
     "used_designators": "",
@@ -421,12 +421,8 @@
   },
   "sheets": [
     [
-      "c583bc7d-a06f-40c2-a518-392a57afe111",
+      "879299c0-e012-4d5e-97a2-28af80789ecc",
       "Raíz"
-    ],
-    [
-      "c1547c86-a71f-4ce9-a7e5-07b51f8cc09c",
-      "Untitled Sheet"
     ]
   ],
   "text_variables": {},
