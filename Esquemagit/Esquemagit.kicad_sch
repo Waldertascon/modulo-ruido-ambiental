@@ -3123,7 +3123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 136.1948 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3282,7 +3282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 210.82 72.898 90)
 			(hide yes)
 			(show_name no)
@@ -3364,7 +3364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 82.55 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -3446,7 +3446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 201.422 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -3607,7 +3607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 145.288 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -3980,7 +3980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "576e03e6-f17a-4c51-8753-be6091323e8c")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 169.7833 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4155,7 @@
 		(instances
 			(project "Esquemagit"
 				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4195,7 +4195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 188.722 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -4356,7 +4356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 113.792 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -4438,7 +4438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 65.7352 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4599,7 +4599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 201.422 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -4679,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 96.52 67.6148 0)
 			(hide yes)
 			(show_name no)
@@ -4839,7 +4839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 217.4748 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +5000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 113.792 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -5081,7 +5081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 212.09 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -5240,7 +5240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 201.93 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -5572,7 +5572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 80.772 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +5888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 125.73 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -6593,7 +6593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 127 71.12 0)
 			(hide yes)
 			(show_name no)
