@@ -2338,6 +2338,12 @@
 		(uuid "3fcd6921-102f-4428-a468-d56422752f95")
 	)
 	(junction
+		(at 115.57 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48a95277-2ff9-4724-b8ab-c2fcc66d9e4b")
+	)
+	(junction
 		(at 64.77 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2608,6 +2614,16 @@
 			(type default)
 		)
 		(uuid "477bbde1-6cab-493a-9898-23bb7ac98b4e")
+	)
+	(wire
+		(pts
+			(xy 99.06 52.07) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575183c6-c636-4fad-8c9e-ab8ef6975b87")
 	)
 	(wire
 		(pts
@@ -2911,6 +2927,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 139.7) (xy 147.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca780a2-31c1-464c-9c3d-ae6ab9a6e525")
+	)
+	(wire
+		(pts
 			(xy 218.44 71.12) (xy 218.44 76.2)
 		)
 		(stroke
@@ -2931,6 +2957,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 139.7) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd75ca3a-c321-4176-a195-58a0cbc4d287")
+	)
+	(wire
+		(pts
+			(xy 99.06 46.99) (xy 99.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea7aa3b-6873-457a-aa66-7f76dc0723f7")
+	)
+	(wire
+		(pts
 			(xy 124.46 46.99) (xy 124.46 60.96)
 		)
 		(stroke
@@ -2938,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "e01973bb-5016-48ae-8ff7-64091af87c53")
+	)
+	(wire
+		(pts
+			(xy 139.7 130.81) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0463a2c-259e-4ed3-b179-a2b0075681f5")
 	)
 	(wire
 		(pts
@@ -3030,7 +3086,7 @@
 		(uuid "7b079907-aed0-45ad-909a-4e2af9fecd2a")
 	)
 	(label "EN"
-		(at 90.17 147.32 0)
+		(at 147.32 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3040,7 +3096,7 @@
 		(uuid "818b2483-5550-4979-97c1-222600d5c35f")
 	)
 	(label "GND"
-		(at 90.17 118.11 0)
+		(at 123.19 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3080,7 +3136,7 @@
 		(uuid "e27e74f7-bf5c-4fd0-819f-af1555c87095")
 	)
 	(label "+3.3V"
-		(at 90.17 124.46 0)
+		(at 82.55 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3173,7 +3229,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 90.17 147.32 0)
+		(at 128.27 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3184,7 +3240,7 @@
 		(fields_autoplaced yes)
 		(uuid "13ca4ce5-05d4-4392-9175-ec104bbef26a")
 		(property "Reference" "TP5"
-			(at 92.71 142.7479 0)
+			(at 130.81 126.2379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3195,7 +3251,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 92.71 145.2879 0)
+			(at 130.81 128.7779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3205,8 +3261,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 95.25 147.32 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 133.35 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3217,7 +3273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 147.32 0)
+			(at 133.35 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3228,7 +3284,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 90.17 147.32 0)
+			(at 128.27 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,7 +3902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
 			(at 95.25 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3965,6 +4021,104 @@
 				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
 					(reference "#PWR013")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 43.18 52.07 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a10c94c-543a-4d36-84aa-567d8295dd2e")
+		(property "Reference" "U2"
+			(at 43.18 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 43.18 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 43.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 43.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 43.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1da9cf4-294f-4561-af8e-91e9b8b6dd4c")
+		)
+		(pin "4"
+			(uuid "33ee0d67-1c1d-4b49-aca3-2ac71cae3dac")
+		)
+		(pin "2"
+			(uuid "b9e27b4d-d9ad-499e-9c7a-46630785fe34")
+		)
+		(pin "5"
+			(uuid "ee082502-5043-4e0a-b5f0-5bbd8b63f3b5")
+		)
+		(pin "3"
+			(uuid "db9ca0c7-d5dc-4af3-ab9b-414250696075")
+		)
+		(pin "8"
+			(uuid "48625cb4-4038-4171-b346-dcf34f582406")
+		)
+		(pin "6"
+			(uuid "6543156d-7452-4d84-986b-e769a02a7ceb")
+		)
+		(pin "7"
+			(uuid "cc8ec2b8-7e15-4e79-9e62-fa97eedd4493")
+		)
+		(instances
+			(project "Esquemagit"
+				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -4245,7 +4399,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 90.17 118.11 0)
+		(at 123.19 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4253,10 +4407,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5f5fa98b-97ba-4a02-97a7-2320b36c530d")
 		(property "Reference" "TP1"
-			(at 92.71 113.5379 0)
+			(at 125.73 91.9479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4267,7 +4420,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 92.71 116.0779 0)
+			(at 125.73 94.4879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4277,8 +4430,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 95.25 118.11 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 128.27 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 118.11 0)
+			(at 128.27 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +4453,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 90.17 118.11 0)
+			(at 123.19 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5163,7 +5316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
 			(at 95.25 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5320,7 +5473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 101.6 70.358 90)
 			(hide yes)
 			(show_name no)
@@ -5460,8 +5613,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 33.02 87.63 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab84e56f-65ba-47ec-a29b-f0280400c219")
+		(property "Reference" "U2"
+			(at 31.75 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM358"
+			(at 31.75 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 33.02 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1da9cf4-294f-4561-af8e-91e9b8b6dd4d")
+		)
+		(pin "4"
+			(uuid "33ee0d67-1c1d-4b49-aca3-2ac71cae3dad")
+		)
+		(pin "2"
+			(uuid "b9e27b4d-d9ad-499e-9c7a-46630785fe35")
+		)
+		(pin "5"
+			(uuid "ee082502-5043-4e0a-b5f0-5bbd8b63f3b6")
+		)
+		(pin "3"
+			(uuid "db9ca0c7-d5dc-4af3-ab9b-414250696076")
+		)
+		(pin "8"
+			(uuid "48625cb4-4038-4171-b346-dcf34f582407")
+		)
+		(pin "6"
+			(uuid "6543156d-7452-4d84-986b-e769a02a7cec")
+		)
+		(pin "7"
+			(uuid "cc8ec2b8-7e15-4e79-9e62-fa97eedd4494")
+		)
+		(instances
+			(project "Esquemagit"
+				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 90.17 124.46 0)
+		(at 99.06 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5472,7 +5725,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac593b5f-e122-4f83-a7d5-753b03fb64d7")
 		(property "Reference" "TP2"
-			(at 92.71 119.8879 0)
+			(at 101.6 42.4179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5483,7 +5736,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 92.71 122.4279 0)
+			(at 101.6 44.9579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5493,8 +5746,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 95.25 124.46 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 104.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 124.46 0)
+			(at 104.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5516,7 +5769,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 90.17 124.46 0)
+			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5533,6 +5786,104 @@
 			(project "Esquemagit"
 				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 127 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6d2243b-5375-49c0-8458-1be55d02d969")
+		(property "Reference" "U2"
+			(at 127 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 127 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 127 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 127 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 127 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1da9cf4-294f-4561-af8e-91e9b8b6dd4e")
+		)
+		(pin "4"
+			(uuid "33ee0d67-1c1d-4b49-aca3-2ac71cae3dae")
+		)
+		(pin "2"
+			(uuid "b9e27b4d-d9ad-499e-9c7a-46630785fe36")
+		)
+		(pin "5"
+			(uuid "ee082502-5043-4e0a-b5f0-5bbd8b63f3b7")
+		)
+		(pin "3"
+			(uuid "db9ca0c7-d5dc-4af3-ab9b-414250696077")
+		)
+		(pin "8"
+			(uuid "48625cb4-4038-4171-b346-dcf34f582408")
+		)
+		(pin "6"
+			(uuid "6543156d-7452-4d84-986b-e769a02a7ced")
+		)
+		(pin "7"
+			(uuid "cc8ec2b8-7e15-4e79-9e62-fa97eedd4495")
+		)
+		(instances
+			(project "Esquemagit"
+				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5732,7 +6083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
 			(at 95.25 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6557,103 +6908,6 @@
 			(project "Esquemagit"
 				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LM358")
-		(at 127 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f609b47b-ba2b-4f04-8628-121f02556ad6")
-		(property "Reference" "U1"
-			(at 127 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM358"
-			(at 128.016 65.278 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 127 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 127 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 127 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "16b49dd7-c1ac-4acd-a1a8-ac67d568a170")
-		)
-		(pin "2"
-			(uuid "daf0c6c7-5ddb-4ce5-b605-c9fd6254c8fb")
-		)
-		(pin "1"
-			(uuid "47480b53-e83c-4e75-b830-38e60cc052d0")
-		)
-		(pin "3"
-			(uuid "3f5d058a-a166-4bba-87eb-258314233898")
-		)
-		(pin "5"
-			(uuid "e89d8168-6f9e-4b99-aed0-515ae8e353c2")
-		)
-		(pin "4"
-			(uuid "ba6b5418-c063-45b8-8070-90a9d872d880")
-		)
-		(pin "7"
-			(uuid "96dbfa80-8d6f-44a1-8521-f5e90ea82785")
-		)
-		(pin "8"
-			(uuid "ebe36669-d700-4ea6-bd2c-8d0a4c979499")
-		)
-		(instances
-			(project "Esquemagit"
-				(path "/879299c0-e012-4d5e-97a2-28af80789ecc"
-					(reference "U1")
 					(unit 1)
 				)
 			)
