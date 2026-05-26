@@ -484,7 +484,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "T6VJ11GQR"
+    ]
   },
   "meta": {
     "filename": "Esquemagit.kicad_pro",
@@ -647,7 +649,7 @@
         "uuid": "879299c0-e012-4d5e-97a2-28af80789ecc"
       }
     ],
-    "used_designators": "J1,J3,#PWR21-24",
+    "used_designators": "C6-7,S1,S3,SW1-2,U3,MK2,IC1,#PWR25-26",
     "variants": []
   },
   "sheets": [
